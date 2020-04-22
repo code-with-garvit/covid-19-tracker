@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid19 Tracker</title>
+  <link rel="stylesheet" href="./style.css.map">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./">
+</head>
+<body>
+  <h2>Coronavirus Dashboard</h2>
+  <div class="cards">
+    <div class="card">
+      <h3 id="cases">--</h3>
+      <p>Total Cases</p>
+    </div>
+    <div class="card">
+      <h3 id="deaths">--</h3>
+      <p>Total Deaths</p>
+    </div>
+    <div class="card">
+      <h3 id="recovered">--</h3>
+      <p>Total Recovered</p>
+    </div>
+  </div>
+  <h3 class="heading">World Data</h3>
+  <div class="world-map"></div>
+  <h3 class="heading">Country Specific</h3>
+  <div class="select">
+    <select id="country"></select>
+  </div>
+  <div class="country-chart"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p style="text-align: center;font-size: 20px;font-weight: 300;padding: 5px 0;color: #333;">Made By Garvit Motwani</p>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
